@@ -1,0 +1,39 @@
+/*  Type Simple selector for paragraphs */
+p {
+  color: #333;
+  font-size: 16px;
+}
+body 
+{ font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; 
+}
+ 
+table 
+        
+        { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+        th, td 
+        { border: 1px solid #ddd; padding: 8px; text-align: left; 
+        }
+        th 
+        { background-color: #f2f2f2; 
+        }
+        form 
+        { background: #f9f9f9; padding: 20px; border-radius: 5px; 
+        }
+        /* Class Simple selector */
+        .form-group 
+        { margin-bottom: 15px; 
+          padding: 30px;
+          border-radius: 34px;
+        }
+        label 
+        { display: block; margin-bottom: 5px; 
+        }
+        /* Group Simple selector */
+        input, select, textarea 
+        {
+           width: 100%; padding: 8px; box-sizing: border-box; 
+        }
+        .scenerypic {
+          width: 100px; height: auto; border-radius: 10px; margin-top: 20px; 
+        }
